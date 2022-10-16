@@ -1,0 +1,141 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+#dropmenu{
+    background-color:white;
+}
+#NavBar{
+    padding-left: 100px;
+   
+}
+#navbarSupportedContent{
+    padding-left: 100px;
+}
+#home{
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-right: 30px;
+    display: flex;
+    background-color: rgb(240, 240, 236);
+    max-height:fit-content;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+#intro1{
+    font-size: 34px;
+    font-style: normal;
+} 
+#locations{
+display: flex;
+padding-top: 60px;
+max-width: fit-content;
+padding-bottom: 60px;
+padding-right: 30px;
+padding-left: 60px;
+
+}
+#location-header{
+    border-bottom: 5px solid orangered;
+}
+#unlist{
+    padding-top: 20px;
+    list-style-type: circle;
+}
+#features{
+
+    background-color: #F7F7F7;
+    padding-left: 60px;
+    display: flex;
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+}
+#card-padding{
+    padding-left: 20px;
+}
+.card-text{
+    color: #7a7a7a;
+}
+#product{
+    padding-left: 60px;
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 30px;
+}
+#card-title-border{
+    border-bottom: 5px solid orangered;
+}
+#product-detail{
+    padding-left: 20px;
+    display: flex;
+}
+#product-card-title{
+    padding: 10px;
+    padding-left: 30px;
+
+}
+
+#progression{
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color:  #F7F7F7;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+#progression-head{
+    padding-left: 30px;
+}
+#progression-head2{
+display: flex;
+}
+#progression-head2-img{
+    padding-right: 30px;
+}
+#culture{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    padding-right: 30px;
+    padding-left: 60px;
+}
+span{
+    color: #8c8c8c;
+    font-size: 15px;
+
+}
+h5{
+    font-size: 30px;
+    color: #4c4c4c;
+}
+#p-content{
+    color: #4c4c4c;
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 23px;
+}
+#contact{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    padding-right: 30px;
+    padding-left: 60px;
+    background-color:  #F7F7F7;
+}
+#hover-link:hover{
+    color: rgb(243, 119, 36);
+}
+#unlist-none{
+    padding-top: 20px;
+    list-style: none;
+}
