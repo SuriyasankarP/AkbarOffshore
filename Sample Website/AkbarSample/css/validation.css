@@ -1,25 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap");
+#NavBar {
+    padding-left: 100px;
+}
+#navbarSupportedContent {
+    padding-left: 100px;
+}
 *{
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body{
+.title{
+    text-align: center;
+}
+.body2{
     display:flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
     padding: 15px;
-    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+    background: #fff;
 
 }
 .container{
     max-width: 700px;
     width: 100%;
-    background: #fff;
+    
     padding: 25px 30px ; 
     border-radius: 5px;
+    background-color: rgb(240, 240, 236);
 
 }
 .container .title{
@@ -36,7 +47,6 @@ body{
 }
 form .user-details .input-box{
     margin-bottom: 15px;
-   
     width: calc(100% / 2 - 20px);
 }
 .user-details .input-box details{
@@ -60,12 +70,14 @@ form .user-details .input-box{
 }
 .user-details .input-box input:focus,
 .user-details .input-box input:focus{
-    border-color: #9b59b6;
+    border-color: orangered;
 }
 form .button{
     height: 45px;
     margin: 45px 0;
+    color: white;
 }
+
 form .button input{
     height: 100%;
     width: 100%;
@@ -75,11 +87,12 @@ form .button input{
     letter-spacing: 1px;
     border-radius: 5px;
     outline: none;
-    color: #fff;
-    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+    color: orange;
+    color: rgb(243, 119, 36);
+    
 }
 form .button input:hover{
-    background: linear-gradient(-135deg,#71b7e6,#9b59b6);
+    color: orangered;
 
 }
 @media (max-width: 584px) {
