@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap");
+body {
+    font-family: "Roboto", sans-serif;
+}
+#btn{
+    background-color: rgb(236, 91, 39);
+    color: white;
+}
+#NavBar {
+    padding-left: 175px;
+    padding-bottom: 100px;
+}
+#navbarSupportedContent {
+    padding-left: 100px;
+}
+.Input{
+    padding-top: 30px;
+    padding-left: 175px;
+}
+.form-control{
+    max-width: 60px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.methods{
+    padding-top: 20px;
+    display: flex;
+}
+.method-tag{
+    padding-right: 30px;
+    
+}
+.button-tag{
+    padding-right: 300px;
+}
+.default{
+    display: flex;
+    flex-direction: column;
+}
+#method{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+input{
+    max-width: 20px;
+}
+#button{
+    padding-top: 30px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+#Answer{
+    padding-top: 30px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+#InputBox{
+    display: flex;
+    gap: 5px;
+}

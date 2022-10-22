@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap");
+body{
+    font-family: "Roboto", sans-serif;
+}
+#NavBar {
+    padding-left: 100px;
+}
+#navbarSupportedContent {
+    padding-left: 100px;
+}

@@ -2,6 +2,10 @@
 #NavBar {
     padding-left: 100px;
 }
+.company_icon{
+    padding-left: 550px;
+    padding-top: 100px;
+}
 #navbarSupportedContent {
     padding-left: 100px;
 }
@@ -24,13 +28,13 @@
     background: #fff;
 
 }
+
 .container{
     max-width: 700px;
     width: 100%;
-    
     padding: 25px 30px ; 
     border-radius: 5px;
-    background-color: rgb(240, 240, 236);
+    background-color: #faa041;
 
 }
 .container .title{
@@ -74,7 +78,8 @@ form .user-details .input-box{
 }
 form .button{
     height: 45px;
-    margin: 45px 0;
+    width: 100px;
+    
     color: white;
 }
 

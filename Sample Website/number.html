@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Methods</title>
+    <link rel="stylesheet" href="css/string.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light " id="NavBar">
+        <a class="navbar-brand" href="#"><img
+                src="https://www.akbaroffshore.com/wp-content/uploads/2022/07/logo-AOF.png" alt="Company_icon"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="string.html">String</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="number.html">Number</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="DateTime.html">DateTime</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="array.html">Array</a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        
+    </nav>
+
+
+
+
+    <div class="Input">
+        <div class="mb-3">
+            <input style="max-width:300px ;" type="number" class="form-control" id="NumberArea" placeholder="Enter Number" >
+          </div>
+
+         <div class="container">
+            <div id="method">
+                <div>
+                    <strong>toString</strong>
+                </div><hr>
+                <div id="InputBox">
+                    <strong>ToExponential()</strong><br>
+                    <input type="number" class="form-control" min="1" max="9" id="expo" placeholder="Expo" ><br>
+                    
+                </div><hr>
+                <div id="InputBox">
+                    <strong>toPrecision()</strong>
+                    <input type="number" min="1" max="9" class="form-control" id="pre" placeholder="Pre" >
+                </div><hr>
+                <div id="InputBox">
+                    <strong>parseInt()</strong>
+                </div><hr>
+                <div id="InputBox">
+                    <strong>parseFloat()</strong>
+                </div><hr>
+                <div id="InputBox">
+                    <strong>MAX_VALUE</strong>
+                </div><hr>
+            </div> 
+            <div id="button">
+                <button id="btn" type="button" class="btn btn-secondary btn-sm" onclick="stringMethod()">String</button><hr>
+                <button id="btn" type="button" class="btn btn-secondary btn-sm" onclick="expoMethod()">Exponential</button><hr>
+                <button type="button" id="btn" class="btn btn-secondary btn-sm" onclick="preMethod()">Precision</button><hr>
+                <div style="padding-top: 10px;">
+                    <button type="button" id="btn" class="btn btn-secondary btn-sm" onclick="intMethod()">Integer</button>
+                </div><hr>
+                <button type="button" id="btn" class="btn btn-secondary btn-sm" onclick="floatMethod()">Float</button><hr>
+                <button type="button" class="btn btn-secondary btn-sm" onclick="maxMethod()" id="btn">Max</button><hr>
+            </div>  
+            <div id="Answer">
+                <div>
+                    <strong id="sm"><span>You Can See Here</span></strong>
+                </div><hr>
+                <div style="padding-top: 15px;">
+                    <strong id="em"> <span>You Can See Here</span> </strong>
+                </div><hr>
+                <div>
+                    <strong id="pm"><span>You Can See Here</span> </strong>
+                </div><hr>
+                <div style="padding-top: 30px;">
+                    <strong id="im"><span>You Can See Here</span> </strong>
+                </div><hr>
+                <div>
+                    <strong id="fm"><span>You Can See Here</span></strong>
+                </div><hr>
+                <div >
+                    <strong id="mm"><span>You Can See Here</span></strong>
+                </div><hr>
+            </div>
+    </div>  
+
+
+</body>
+<script src="./script/number.js"></script>
+</html>

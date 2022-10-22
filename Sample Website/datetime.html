@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DateTime Methods</title>
+    <link rel="stylesheet" href="css/string.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light " id="NavBar">
+        <a class="navbar-brand" href="#"><img
+                src="https://www.akbaroffshore.com/wp-content/uploads/2022/07/logo-AOF.png" alt="Company_icon"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="string.html">String</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="number.html">Number</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="datetime.html">DateTime</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="array.html">Array</a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        
+    </nav>
+
+         <div class="container">
+            <div id="method">
+                <div>
+                    <strong>Current Details</strong>
+                </div><hr>
+                <div>
+                    <strong>getFullyear()</strong>
+                </div><hr>
+                <div id="InputBox">
+                    <strong>getMonth()</strong><br>
+                </div><hr>
+                <div id="InputBox">
+                    <strong>getHours()</strong>
+                </div><hr>
+                <div id="InputBox" style="padding-top: 30px;">
+                    <strong>getday()</strong>
+                </div><hr>
+                <div id="InputBox">
+                    <strong>getMinute()</strong>
+                </div><hr>
+            </div> 
+            <div id="button">
+                <button id="btn" type="button" class="btn btn-secondary btn-sm" onclick="current()">year</button><hr>
+                <button id="btn" type="button" class="btn btn-secondary btn-sm" onclick="yearMethod()">year</button><hr>
+                <button id="btn" type="button" class="btn btn-secondary btn-sm" onclick="monthMethod()">Month</button><hr>
+                <button id="btn" type="button" class="btn btn-secondary btn-sm" onclick="dateMethod()">Date</button><hr>
+                <div style="padding-top: 10px;">
+                    <button id="btn" type="button" class="btn btn-secondary btn-sm" onclick="dayMethod()">Day</button>
+                </div><hr>
+                <button id="btn" type="button" class="btn btn-secondary btn-sm" onclick="minuteMethod()">Minute</button><hr>
+                
+            </div>  
+            <div id="Answer">
+                <div>
+                    <strong id="cm"><span>You Can See Here</span></strong>
+                </div><hr>
+                <div>
+                    <strong id="ym"><span>You Can See Here</span></strong>
+                </div><hr>
+                <div style="padding-top: 15px;">
+                    <strong id="mm"> <span>You Can See Here</span> </strong>
+                </div><hr>
+                <div>
+                    <strong id="dm"><span>You Can See Here</span> </strong>
+                </div><hr>
+                <div style="padding-top: 30px;">
+                    <strong id="dym"><span>You Can See Here</span> </strong>
+                </div><hr>
+                <div>
+                    <strong id="mim"><span>You Can See Here</span></strong>
+                </div><hr>
+            </div>
+    </div>  
+
+
+</body>
+<script src="./script/dateTime.js"></script>
+</html>

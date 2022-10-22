@@ -71,7 +71,8 @@ function Login(e){
     }
     else{
         alert("Welcome Back!!!")
-        location.href="index.html"
+        location.href="userPage.html"
+        
     }
     }else{
         alert("Please Fill All Field")
