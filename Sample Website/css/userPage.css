@@ -8,3 +8,22 @@ body{
 #navbarSupportedContent {
     padding-left: 100px;
 }
+#home {
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-right: 30px;
+    display: flex;
+    background-color: rgb(240, 240, 236);
+    max-height: fit-content;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#intro1 {
+    font-size: 34px;
+    font-style: normal;
+}

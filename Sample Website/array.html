@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+    <link rel="stylesheet" href="css/array.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light " id="NavBar">
+        <a class="navbar-brand" href="#"><img
+                src="https://www.akbaroffshore.com/wp-content/uploads/2022/07/logo-AOF.png" alt="Company_icon"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="string.html">String</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="number.html">Number</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="DateTime.html">DateTime</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="array.html">Array</a>
+                </li>
+                <li class="nav-item" style="padding-left: 200px;">
+                    <a class="nav-link" href="home.html">Go Home</a>
+                </li>
+                
+            </ul>
+            
+        </div>
+        
+    </nav>
+
+    <div class="Input">
+        <div class="mb-3">
+            <input style="max-width:300px ;" type="text" class="form-control" id="textarea" placeholder="Enter Text" >
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+            <div class="view">
+                    <div><strong>Array</strong></div>
+                    <div><button id="btn-table" type="button" class="btn btn-secondary btn-sm">view</button><hr></div>
+                    <div class="array"></div>
+            </div><hr>
+            <div class="view">
+                    <div><strong>Pop</strong></div>
+                    <div><button id="popBtn" type="button" class="btn btn-secondary btn-sm">view</button></div>
+                    <div class="popArray"></div>
+            </div><hr>
+            <div class="view">
+                <div><strong>Sort</strong></div>
+                <div><button id="sortBtn" type="button" class="btn btn-secondary btn-sm">view</button></div>
+                <div class="sortArray"></div>
+        </div><hr>
+        <div class="view">
+            <div style="display:flex; flex-direction:column">
+                <div><strong>push()</strong></div>
+            <div >
+                <input type="text" id="pushInput" style="max-width: 100px;" class="form-control" >
+            </div>
+            </div>
+            
+            <div><button id="pushBtn" type="button" class="btn btn-secondary btn-sm">view</button></div>
+            <div class="pushArray"></div>
+        </div><hr>
+        <div class="view">
+            <div style="display:flex; flex-direction:column">
+                <div><strong>concat()</strong></div>
+            <div >
+                <input type="text" id="conInput" style="max-width: 200px;" class="form-control" >
+            </div>
+            </div>
+                
+               <div><button id="conBtn" type="button" class="btn btn-secondary btn-sm">view</button></div>
+                <div class="conArray"></div>
+        </div><hr>
+        <div class="view">
+            <div style="display:flex; flex-direction:column">
+                <div><strong>slice()</strong></div>
+            <div style="display: flex; gap:10px" >
+                <input type="number" min="1" style="max-width: 50px;"  class="form-control" id="start" ><br>
+                <input type="number" min="1" style="max-width: 50px;"  class="form-control" id="end"  ><br>
+            </div>
+            </div>
+               <div><button id="sliceBtn" type="button" class="btn btn-secondary btn-sm">view</button></div>
+                <div class="sliceArray"></div>
+        </div><hr>
+    </div>
+    
+    
+         
+
+</body>
+<script src="./script/array.js"></script>
+</html>

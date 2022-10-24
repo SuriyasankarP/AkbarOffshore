@@ -40,7 +40,6 @@ function intMethod(){
 function floatMethod(){
     let number=parseFloat(document.getElementById("NumberArea").value)
     let answer=parseFloat(number)
-    console.log(answer)
     document.getElementById("fm").innerHTML=answer
     
     
