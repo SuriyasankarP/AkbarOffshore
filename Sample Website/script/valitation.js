@@ -41,6 +41,7 @@ function signUp(e){
 
             if(!exist){
                 formData.push({fname,uname,email,phone,password})
+
                 localStorage.setItem('formData',JSON.stringify(formData))
                 document.querySelector('form').reset()
                 alert("Your Account Created")
@@ -71,7 +72,10 @@ function Login(e){
     }
     else{
         alert("Welcome Back!!!")
-        location.href="userPage.html"
+        window.localStorage.setItem("auth",true)
+        // console.log(vis)
+        // vis.style.visibility="visible"
+        location.href="home.html"
         
     }
     }else{

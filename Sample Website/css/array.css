@@ -2,7 +2,7 @@
 body {
     font-family: "Roboto", sans-serif;
 }
-#btn{
+button{
     background-color: rgb(236, 91, 39) !important;
     color: white;
 }
@@ -22,8 +22,10 @@ td,tr,table {
     padding-left: 100px;
 }
 .Input{
-    padding-top: 30px;
-    padding-left: 175px;
+    padding-top: 20px;
+}
+h3{
+   text-align: center;
 }
 .view{
     display: flex;

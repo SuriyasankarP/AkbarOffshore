@@ -12,7 +12,7 @@ function stringMethod(){
     
 }
 function expoMethod(){
-    let number=parseFloat(document.getElementById("NumberArea").value)
+    let number=parseInt(document.getElementById("NumberArea").value)
     let expo=parseInt(document.getElementById("expo"))
     if(number=='' || number==null){
         alert("Enter Any number")
@@ -38,7 +38,7 @@ function intMethod(){
     
 }
 function floatMethod(){
-    let number=parseFloat(document.getElementById("NumberArea").value)
+    let number=parseInt(document.getElementById("NumberArea").value)
     let answer=parseFloat(number)
     document.getElementById("fm").innerHTML=answer
     

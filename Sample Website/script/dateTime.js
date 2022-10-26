@@ -28,7 +28,10 @@ function current(){
     let dateNum=date.getDate()
     let month=listMonth[date.getMonth()]
     let year=date.getFullYear()
-    let answer=`<strong>${dateNum}-${month}-${year}</strong>`
+    let hour=date.getHours()
+    let minute=date.getMinutes()
+
+    let answer=`<strong>${dateNum}-${month}-${year}-${hour}-${minute}-</strong>`
     document.getElementById("cm").innerHTML=answer
 
 }
